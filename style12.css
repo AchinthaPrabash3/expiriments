@@ -60,9 +60,7 @@ a{
 .box1{
     height: 35rem;
     width: 35rem;
-    border-radius: 50%;
     background: radial-gradient(red,darkred);
-    position: absolute;
     bottom: -10%;
     right: -10%;
     box-shadow: -8px -9px 8px rgba(0, 0, 0, 0.31);
@@ -70,16 +68,26 @@ a{
 .box2{
     height: 35rem;
     width: 35rem;
-    border-radius: 50%;
     background: radial-gradient(rgb(0, 255, 229),rgb(0, 139, 134));
-    position: absolute;
-    top: -10%;
+    top: 10%;
     left: -10%;
     box-shadow: 8px 9px 8px rgba(0, 0, 0, 0.31);
 }
-.box{
-    transition: .3s linear;
+.box3{
+    height: 15rem;
+    width: 15rem;
+    background: radial-gradient(rgb(0, 255, 229),rgb(0, 139, 134));
+    top:3rem;
+    left: 35%;
 }
-.box:hover{
-    transform: scale(110%);
+.box4{
+    height: 15rem;
+    width: 15rem;
+    background:radial-gradient(red,darkred);
+    bottom: 10%;
+    right: 30%;
+}
+.box{
+    border-radius: 50%;
+    position:absolute;
 }
