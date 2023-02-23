@@ -18,7 +18,7 @@ a {
   color: inherit;
 }
 header {
-  z-index: 2;
+  z-index: 3;
   max-width: 100%;
   display: flex;
   justify-content: center;
@@ -73,6 +73,7 @@ header {
   padding-top: 10vh;
 }
 .container {
+    z-index: 2;
   width: 717px;
   height: 698px;
   background-color: aliceblue;
