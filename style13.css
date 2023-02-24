@@ -181,6 +181,7 @@ line-height: 95%;
   height: 500px;
   width: 500px;
   position: relative;
+  margin-right: 40px;
 }
 .about-img img{
   z-index: 2;
@@ -199,6 +200,23 @@ line-height: 95%;
   position: absolute;
   bottom: -100px;
   right: -100px;
+}
+#projects{
+  padding-top:100px;
+}
+.grid{
+  display: grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,300px));
+  align-items: center;
+  justify-content: center;
+  gap:10px;
+}
+.grid div{
+  height:300px;
+  background-color: white;
+}
+.item1{
+  grid-column:1/-1;
 }
 @keyframes ep {
     from{
