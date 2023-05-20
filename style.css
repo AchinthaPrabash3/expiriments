@@ -51,7 +51,6 @@ nav li{
     justify-content: center;
     align-items: center;
     position: relative;
-    overflow: hidden;
 }
 .lead{
     display: flex;
@@ -86,7 +85,7 @@ img{
 .blob_1{
     position: absolute;
     z-index: -1;
-    top: -70px;
+    top: -120px;
     left: -190px;
     width: 1000px;
     height: 1000px;
@@ -98,4 +97,25 @@ img{
     top:-45px;
     right: -50px;
     z-index: -1;
+}
+
+.section2{
+    margin-top: 100px;
+}
+.deck{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.card_1,.card_2,.card_3{
+    height: 500px;
+    width: 400px;
+    background-color:rgba(255, 0, 0, 0.509);
+    border-radius:10px;transition: 500ms;
+    text-align: center;text-transform: uppercase;
+}
+.card_1:hover,.card_2:hover,.card_3:hover{
+    transform: translateY(-20px);
 }
