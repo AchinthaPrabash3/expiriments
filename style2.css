@@ -128,14 +128,14 @@ nav li {
   margin-left: 90px;
   padding-top: 50px;
   letter-spacing: 3px;
-  animation-name: ap-1;
-  animation-duration: 3s;
 }
 .section_03 p {
   margin-top: 30px;
   font-size: xx-large;
   margin-left: 90px;
   width: 80%;
+}
+.animation{
   animation-name: ap-1;
   animation-duration: 3s;
 }
