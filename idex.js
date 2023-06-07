@@ -10,4 +10,3 @@ const observer = new IntersectionObserver(entries => {
   });
   
   observer.observe(document.querySelector('.text_04'));
-  observer.observe(document.querySelector('.text_05'));
