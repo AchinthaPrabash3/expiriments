@@ -33,7 +33,7 @@ main{
     background-position-x:20px ;
     background-repeat:unset;
     background-size: cover;
-    animation:silde-in 1.5s ease-in;
+    animation:silde-in 900ms ease-in;
 
 }
 .right{
@@ -161,6 +161,7 @@ nav li:hover{
 @keyframes silde-in{
     from{
         transform: translateX(-100%);
+        opacity:0.4;
     }
     to{
         transform: translateX(0);
