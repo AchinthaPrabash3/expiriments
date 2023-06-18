@@ -169,6 +169,7 @@ padding-left: 80px;
 .item{
   background-color: aqua;
   border-radius: 30px;
+  position: relative;
 }
 .item:nth-child(3){
   grid-column: 1 / span 2;
@@ -178,4 +179,14 @@ padding-left: 80px;
   grid-row: 1 / span 2;
   grid-column: span 2;
   background-color: rgb(255, 160, 160);
+}
+.tag{
+  height: 30px;
+  width: 60%;
+  border:1px solid black;
+  position: absolute;
+  top:10px;
+  left: 20px;
+  border-radius: 99px;
+  background-color: whitesmoke;
 }
