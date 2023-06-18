@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(23, 23, 23);
+}
+
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(28, 28, 28, 0.5);
+  border-radius: 999px;
+}
+nav > ul {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+nav > ul > li {
+  display: block;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color:white;
+}
+.logo {
+  color: white;
+  margin: 0;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  background-color: #e52efe;
+  color:white;
+  font-size: 17px;
+  left: 1px;
+  text-transform: capitalize;
+}
+.section-one,.section-two{
+  width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  height: 70vh;
+  padding: 10px 20px;
+  margin-top: 50px;
+  color:white;
+}
+.section-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+padding-left: 80px;
+}
+.main-text{
+  font-size: 80px;
+  margin: 0;
+  margin-bottom: 10px;
+  line-height: calc(100% + 15px);
+}
+.disc{
+  width: 500px;
+}
+.section-right{
+  width: 40%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:10px;
+  padding: 0 10px;
+}
+.box{
+  background-color: aqua;
+}
+.box:nth-child(1){
+  grid-row: span 2;
+  border-radius: 999px;
+  background-image: url('https://images.pexels.com/photos/17170319/pexels-photo-17170319/free-photo-of-landscape-field-summer-sun.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.box:nth-child(2){
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(221, 221, 221, 0.288);
+  border: 2px solid white;
+}
+.box:nth-child(2) h2{
+  margin: 0;
+  font-size: 64px;
+}
+.box:nth-child(2) p{
+  margin: 0;
+}
+.box:nth-child(3){
+  border-radius: 10px;
+  background-image: url('https://images.pexels.com/photos/1485031/pexels-photo-1485031.jpeg?auto=compress&cs=tinysrgb&w=800');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.box:nth-child(3) button{
+  height: 40px;
+  width: 80%;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 5px;
+}
+.btn-con{
+  display: flex;
+  gap: 30px;
+  border: none;
+}
+.btn-con button{
+  border: none;
+  border-radius: 5px;
+}
+.btn-con button:nth-child(1){
+  height: 50px;
+  width: 150px;
+
+  font-size: 19px;
+  text-transform:capitalize;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.btn-con button:nth-child(2){
+  height: 50px;
+  width: 150px;
+}
+
+.section-two{
+  height: 70vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap: 30px;
+}
+.item{
+  background-color: aqua;
+  border-radius: 30px;
+}
+.item:nth-child(3){
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+.item:nth-child(4){
+  grid-row: 1 / span 2;
+  grid-column: span 2;
+  background-color: rgb(255, 160, 160);
+}
