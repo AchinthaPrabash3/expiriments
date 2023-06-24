@@ -5,6 +5,8 @@ const observer = new IntersectionObserver((entries) => {
     if (entry.isIntersecting) {
       // Add the animation class
       entry.target.classList.add("animation");
+    } else {
+      entry.target.classList.remove("animation");
     }
   });
 });
