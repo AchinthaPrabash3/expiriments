@@ -3,7 +3,7 @@ body {
   margin: 0;
 }
 .main {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
   font-family: Roboto;
 }
@@ -20,7 +20,7 @@ body {
 }
 .header {
   height: 106px;
-  width: 90%;
+  max-width: 90%;
   border-radius: 100px;
   margin: 0 auto;
   margin-top: 13px;
